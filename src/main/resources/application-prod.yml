@@ -1,0 +1,5 @@
+loggin:
+    level:
+        br:
+            com:
+                bookstoremanager: INFO
