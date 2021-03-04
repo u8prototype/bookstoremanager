@@ -14,10 +14,7 @@
 	<name>bookstoremanager</name>
 	<description>BookStore Manager Project</description>
 	<properties>
-		<java.version>11</java.version>		
-  		<sonar.projectKey>u8prototype_bookstoremanager</sonar.projectKey>
-  		<sonar.organization>u8prototype</sonar.organization>
-  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
