@@ -6,28 +6,11 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @Getter
-@AllArgsConstructor	
+@AllArgsConstructor
 public enum Gender {
 
-	MALE("Male"),
-	FEMALE("Female");
+	MALE,
+	FEMALE;
 
-  
-	private final String description;
-
-    /**
-     * @param text
-     */
-	Gender(final String text) {
-        this.description = text;
-    }
-
-    /* (non-Javadoc)
-     * @see java.lang.Enum#toString()
-     */
-    @Override
-    public String toString() {
-        return description;
-    }
 	
 }
